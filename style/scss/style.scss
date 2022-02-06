@@ -1,0 +1,143 @@
+@import 'fonts.scss';
+@import 'buttons.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6F7CB2;
+}
+
+.layout {
+    padding: 0 165px 0 165px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #091133;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: #37447E;
+}
+
+.stretched-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 10px 0 40px 0;
+}
+
+.left-flex {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;    
+    gap: 60px;
+
+    @at-root {
+        .footer #{&} {
+            color: #929ECC;
+        }
+    }
+}
+
+.company-name {
+    font-weight: 500;
+    color: #939EA4;
+}
+
+.right-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
+.footer {
+    background: #E7ECFF;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+hr {
+    color: #CDD1D4;
+    margin: 0 0 20px 0;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+    padding-top: 240px;
+    padding-bottom: 170px;
+
+    background-image: url("./assets/images/Rectangle.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    background-position: 50% 10%;
+
+    p {
+        max-width: 600px;
+    }
+    .price {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 66px;
+        letter-spacing: 1px;
+        color: #222F65;
+        margin-top: 35px;
+    }
+    .UI-design-kit {
+        color: #37447E;
+        margin-bottom: 60px;
+    }
+    .see-one-price {
+        font-size: 14px;
+        line-height: 24px;
+        color: #5D6970;
+        margin-bottom: 9px;
+    }
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}

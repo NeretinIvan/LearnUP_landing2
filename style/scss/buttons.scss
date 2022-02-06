@@ -1,0 +1,27 @@
+button {
+    background: #111B47;
+    border-radius: 2px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 36px;
+    width: 189px;
+
+    @at-root {
+        .top-panel #{&} {
+            height: 26px;
+            width: 160px;
+        }
+        .footer .top-panel #{&} {
+            width: 109px;
+        }
+    }
+}
