@@ -35,7 +35,19 @@ h2 {
     font-weight: 500;
     font-size: 36px;
     line-height: 48px;
+    margin-bottom: 16px;
     color: #091133;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #091133;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -122,7 +134,7 @@ hr {
         line-height: 66px;
         letter-spacing: 1px;
         color: #222F65;
-        margin-top: 35px;
+        margin-top: 25px;
     }
     .UI-design-kit {
         color: #37447E;
@@ -136,8 +148,38 @@ hr {
     }
 }
 
-.content-grid {
+.two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    //column-gap: 20px;
+    row-gap: 130px;
+    margin-bottom: 160px;
+
+    button {
+        margin-top: 30px;
+    }
+
+    img {
+        margin: 0 auto 0 auto;
+    }
+
+    .small {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 0;
+        margin-top: 70px;
+        column-gap: 30px;
+        color: #5D6970;
+
+        img {
+            margin: 0;
+        }
+    }
+}
+
+.lesser-images {
+    img {
+        transform: scale(0.8, 0.8);
+    }
 }
