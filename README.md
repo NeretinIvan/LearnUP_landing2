@@ -50,4 +50,5 @@ This finally may look like this:
   ![image](https://user-images.githubusercontent.com/88938784/153714558-f7161181-1c38-4bb3-9764-21cac834cc33.png)
 
   However, this is not the only way and you may use any other method if you want.
-  4. Write "sass style/scss/style.scss style.css" in terminal to compile style files. You may write "sass --watch style/scss/style.scss style.css" if you want it to compile style.scss file every time you save it.
+  
+  4. Write `sass style/scss/style.scss style.css` in terminal to compile style files. You may write `sass --watch style/scss/style.scss style.css` if you want it to compile style.scss file every time you save it.
