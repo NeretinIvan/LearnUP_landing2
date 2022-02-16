@@ -1,0 +1,58 @@
+button {
+    background: #111B47;
+    border-radius: 2px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    transition: 0.75s;
+    transition-timing-function: ease-in;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 36px;
+    width: 189px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        background: #505F98;
+        color: white;
+        transition: 0s;
+    }
+
+    @at-root {
+        .top-panel #{&} {
+            font-size: 12px;
+            line-height: 18px;
+            height: 26px;
+            width: 160px;
+        }
+        .footer .top-panel #{&} {
+            width: 109px;
+        }
+        .button-flex #{&} {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+
+    &.light {
+        background: none;
+        color: #091133;
+        border: 2px solid #091133;
+        border-radius: 2px;
+
+        &:active {
+            background: #505F98;
+            color: white;
+            border-color: white;
+        }
+    }
+}
