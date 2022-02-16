@@ -104,6 +104,12 @@ button.light:active {
   color: #5D6970;
   margin-bottom: 9px;
 }
+.price-section button {
+  margin-bottom: 170px;
+}
+.price-section h2 {
+  margin-top: 230px;
+}
 
 .introduction {
   height: 1112px;
